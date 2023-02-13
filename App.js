@@ -36,7 +36,7 @@ function start() {
     },);
 }
  
-function pause() {
+function stop() {
     clearTimeout(timeout);
     button.disabled=false;
 }
